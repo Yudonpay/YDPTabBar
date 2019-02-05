@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1F31FE18843CB7BFCAA7F6AE /* Pods-YDPTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDPTabBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDPTabBar_Tests/Pods-YDPTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2EC939CB262897FC06AFC6D0 /* YDPTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDPTabBar.podspec; path = ../YDPTabBar.podspec; sourceTree = "<group>"; };
+		2EC939CB262897FC06AFC6D0 /* YDPTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDPTabBar.podspec; path = ../YDPTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57271A5069C4243A41AD48D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YDPTabBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDPTabBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

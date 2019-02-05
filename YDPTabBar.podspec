@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YDPTabBar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YDPTabBar.'
+  s.summary          = 'Simple and customizable TabBar'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'TabBar with circles in the tab selected, easy to customize on the Storyboard.'
 
-  s.homepage         = 'https://github.com/José Miguel Herrero/YDPTabBar'
+  s.homepage         = 'https://www.yudonpay.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'José Miguel Herrero' => 'jmiguel.herrero@yudonpay.com' }
-  s.source           = { :git => 'https://github.com/José Miguel Herrero/YDPTabBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Yudonpay/YDPTabBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'YDPTabBar/Classes/**/*'
   
