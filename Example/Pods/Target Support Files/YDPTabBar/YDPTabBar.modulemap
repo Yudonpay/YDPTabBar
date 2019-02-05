@@ -1,0 +1,6 @@
+framework module YDPTabBar {
+  umbrella header "YDPTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

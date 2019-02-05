@@ -1,0 +1,16 @@
+PODS:
+  - YDPTabBar (0.1.0)
+
+DEPENDENCIES:
+  - YDPTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  YDPTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YDPTabBar: 16db9ed40a324033390a43e77a39615090cd0f65
+
+PODFILE CHECKSUM: 3b78caa3355771c5ba2336d41d17de42cc28ffb6
+
+COCOAPODS: 1.6.0.rc.2
