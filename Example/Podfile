@@ -6,6 +6,5 @@ target 'YDPTabBar_Example' do
   target 'YDPTabBar_Tests' do
     inherit! :search_paths
 
-    
   end
 end

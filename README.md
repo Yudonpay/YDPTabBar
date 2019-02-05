@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Yudonpay/YDPTabBar/blob/master/Resources/pageControl.gif">
+<img src="https://github.com/Yudonpay/YDPTabBar/blob/master/Resources/tabBar.gif">
 </p>
 <div align="center">
 <h1> YDPTabBar</h1>

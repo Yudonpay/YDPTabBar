@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA8F5F351778611FC3F92F599FBE06E /* YDPTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF21E8540B0B94190BEFE00A028475E8 /* YDPTabBar-dummy.m */; };
 		2348BD13B1BC5267551F71967F3A63D8 /* Pods-YDPTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1B28D9E4088DBB58B6E573095567B2 /* Pods-YDPTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BA4E8DF4B57F3C1240F266AA30236D /* YDPTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3021F3568C55C00F44B16D89F31AFDB6 /* YDPTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		382ED8F173BFE0360EE983DAB3945B1F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808FDF8DF661C1BF8F17DC94FE4191A3 /* ReplaceMe.swift */; };
+		24BA4E8DF4B57F3C1240F266AA30236D /* YDPTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081C838D7CE6E4E1405872B88A5E6596 /* YDPTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E2AC318ABE1B1D872B39D2DD91234C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6F1049B880A360203D8ABD09561EE3F1 /* YDPTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A40531F94A175997511E3F9070F77E /* YDPTabBar-dummy.m */; };
 		8AB86B23BF5160F3C6B5DA0FB451B597 /* Pods-YDPTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7B72CCB9F8E814857C1FCB730B207A /* Pods-YDPTabBar_Tests-dummy.m */; };
 		9F56D0354ABF907BF033D7DBCDD3D23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B156051452A3D4161FEB261D75C24D88 /* YDPTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C6FA63FB4452B0800CE98C44E2E83 /* YDPTabBar.swift */; };
 		B5F94B4016BB113E72C8BC9E2C0EF59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E660A27AB22FB8E3D47C2B5018C6ADE1 /* Pods-YDPTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C5BC1DBEA2624436B9BBE8818E5F09 /* Pods-YDPTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7D1F9E88F72070813D6ED5E6334CCFA /* Pods-YDPTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 466A858A3FE68A97D3BB28AF2FB61270 /* Pods-YDPTabBar_Example-dummy.m */; };
+		F816E4CDDD2C5DC84D1DA7A83AC2B086 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6DAC0FF2FDE24243DD6323D89E2EB /* RoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081C838D7CE6E4E1405872B88A5E6596 /* YDPTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPTabBar-umbrella.h"; sourceTree = "<group>"; };
 		0AE3531206AA146B21CD97F9C4484C6C /* Pods-YDPTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		0ED6DAC0FF2FDE24243DD6323D89E2EB /* RoundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundView.swift; path = YDPTabBar/Classes/RoundView.swift; sourceTree = "<group>"; };
 		159E77419DA0D25469A7AD80EAC34DE3 /* Pods-YDPTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDPTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1AA78FFB8EE2BC5BBA0D1F487049F372 /* Pods-YDPTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2597EBA0FB4E8A16E34FA175453CC55C /* Pods_YDPTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDPTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3021F3568C55C00F44B16D89F31AFDB6 /* YDPTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPTabBar-umbrella.h"; sourceTree = "<group>"; };
+		2597EBA0FB4E8A16E34FA175453CC55C /* Pods_YDPTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDPTabBar_Example.framework; path = "Pods-YDPTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FB4B73FA01E8E6546C9BA10F61D490 /* Pods-YDPTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		42A6DC928BE8EC08C74D4AAF0B94E2E3 /* Pods_YDPTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDPTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A6DC928BE8EC08C74D4AAF0B94E2E3 /* Pods_YDPTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDPTabBar_Tests.framework; path = "Pods-YDPTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4418C72A8C17D4B3F1F88325F3B18547 /* Pods-YDPTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDPTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		44DE152A21AE14024EF981D616323EB9 /* YDPTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDPTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		466A858A3FE68A97D3BB28AF2FB61270 /* Pods-YDPTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDPTabBar_Example-dummy.m"; sourceTree = "<group>"; };
 		490CB0D7F00EE453A5609DE5543C1394 /* Pods-YDPTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		498D69A7E9150762D35AD0411773E740 /* YDPTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDPTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B1E63836C530D1A9CF94A86477C2C39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4BDE9786ED15AE167EBB091508E5946D /* YDPTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPTabBar-prefix.pch"; sourceTree = "<group>"; };
+		498D69A7E9150762D35AD0411773E740 /* YDPTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDPTabBar.framework; path = YDPTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5029D43F6FA4E6E003ECFAB23D2C5FC6 /* Pods-YDPTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDPTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50EC50C432028185F87ECC05BC9F58B6 /* YDPTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDPTabBar.modulemap; sourceTree = "<group>"; };
+		51A40531F94A175997511E3F9070F77E /* YDPTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDPTabBar-dummy.m"; sourceTree = "<group>"; };
 		57AEE37203D0CB418EFD201B0544F1EB /* Pods-YDPTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDPTabBar_Example.modulemap"; sourceTree = "<group>"; };
-		5FE15BC21327017C5FF1005FA4CFBB2F /* YDPTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDPTabBar.xcconfig; sourceTree = "<group>"; };
 		69C5BC1DBEA2624436B9BBE8818E5F09 /* Pods-YDPTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDPTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		808FDF8DF661C1BF8F17DC94FE4191A3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YDPTabBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		8D8A3E0E70CC2051A853BCF80DDBA74C /* YDPTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDPTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		753412DA8F16CFB161FE2FEC395ECEC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		91428F231611DF784E4B714DAA70D9AB /* Pods-YDPTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC0E33FF24CC8A13A94105B57595B7B3 /* Pods-YDPTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDPTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC4C6FA63FB4452B0800CE98C44E2E83 /* YDPTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YDPTabBar.swift; path = YDPTabBar/Classes/YDPTabBar.swift; sourceTree = "<group>"; };
+		B5335695AB45F6FF4B73F08143FBC198 /* YDPTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDPTabBar.xcconfig; sourceTree = "<group>"; };
 		B5C9BA6714A7D12EB02B88C641A4BA93 /* Pods-YDPTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDPTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B622C7067DBA617EAE6649EB2B56550F /* Pods-YDPTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7401A3D2A34FE33AC20951CA2FDC344 /* YDPTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDPTabBar-Info.plist"; sourceTree = "<group>"; };
 		BF1B28D9E4088DBB58B6E573095567B2 /* Pods-YDPTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDPTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		C1BCA126B76999A2C969E3F403CD012E /* Pods-YDPTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDPTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C7F4F4324FE7568A239C3355D371C266 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF7B72CCB9F8E814857C1FCB730B207A /* Pods-YDPTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDPTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		DF21E8540B0B94190BEFE00A028475E8 /* YDPTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDPTabBar-dummy.m"; sourceTree = "<group>"; };
-		E99108E1D3A84A19DAA451A8B3C4493A /* YDPTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDPTabBar-Info.plist"; sourceTree = "<group>"; };
+		DDFB20D8986CCDF966B2FECC2B232CC5 /* YDPTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDPTabBar-prefix.pch"; sourceTree = "<group>"; };
+		F34E547E09CAA979CC78A278BA23131A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F8B913B42C842287F9639DE443417F66 /* YDPTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDPTabBar.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,37 +118,26 @@
 			path = "Target Support Files/Pods-YDPTabBar_Example";
 			sourceTree = "<group>";
 		};
-		247EB6B41AA3D43BCA8D0CD69613866D /* Development Pods */ = {
+		0F98D5DC6C1DE26FA1BAA929AC8BB4C0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				333D02F8914D038636D9C8B4B785CACD /* YDPTabBar */,
+				F34E547E09CAA979CC78A278BA23131A /* LICENSE */,
+				753412DA8F16CFB161FE2FEC395ECEC7 /* README.md */,
+				44DE152A21AE14024EF981D616323EB9 /* YDPTabBar.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		333D02F8914D038636D9C8B4B785CACD /* YDPTabBar */ = {
+		2B924080D37E77C435A054E51CE13126 /* YDPTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				808FDF8DF661C1BF8F17DC94FE4191A3 /* ReplaceMe.swift */,
-				C4663356D556F2530984EB8B4C01006B /* Pod */,
-				37E4BFC3B92FCE5523D9B69B717C58F3 /* Support Files */,
+				0ED6DAC0FF2FDE24243DD6323D89E2EB /* RoundView.swift */,
+				AC4C6FA63FB4452B0800CE98C44E2E83 /* YDPTabBar.swift */,
+				0F98D5DC6C1DE26FA1BAA929AC8BB4C0 /* Pod */,
+				44530CD67AA847A9526AEB608D120251 /* Support Files */,
 			);
 			name = YDPTabBar;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		37E4BFC3B92FCE5523D9B69B717C58F3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				50EC50C432028185F87ECC05BC9F58B6 /* YDPTabBar.modulemap */,
-				5FE15BC21327017C5FF1005FA4CFBB2F /* YDPTabBar.xcconfig */,
-				DF21E8540B0B94190BEFE00A028475E8 /* YDPTabBar-dummy.m */,
-				E99108E1D3A84A19DAA451A8B3C4493A /* YDPTabBar-Info.plist */,
-				4BDE9786ED15AE167EBB091508E5946D /* YDPTabBar-prefix.pch */,
-				3021F3568C55C00F44B16D89F31AFDB6 /* YDPTabBar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YDPTabBar";
 			sourceTree = "<group>";
 		};
 		419AD5ED68BCC81B89179D9FF0B6B091 /* Targets Support Files */ = {
@@ -156,6 +147,28 @@
 				C29ABC84E0E02D3F5E5CEA3178B91446 /* Pods-YDPTabBar_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44530CD67AA847A9526AEB608D120251 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B913B42C842287F9639DE443417F66 /* YDPTabBar.modulemap */,
+				B5335695AB45F6FF4B73F08143FBC198 /* YDPTabBar.xcconfig */,
+				51A40531F94A175997511E3F9070F77E /* YDPTabBar-dummy.m */,
+				B7401A3D2A34FE33AC20951CA2FDC344 /* YDPTabBar-Info.plist */,
+				DDFB20D8986CCDF966B2FECC2B232CC5 /* YDPTabBar-prefix.pch */,
+				081C838D7CE6E4E1405872B88A5E6596 /* YDPTabBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YDPTabBar";
+			sourceTree = "<group>";
+		};
+		6CC09579BD45B09D726AF23333360598 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B924080D37E77C435A054E51CE13126 /* YDPTabBar */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -192,21 +205,11 @@
 			path = "Target Support Files/Pods-YDPTabBar_Tests";
 			sourceTree = "<group>";
 		};
-		C4663356D556F2530984EB8B4C01006B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4B1E63836C530D1A9CF94A86477C2C39 /* LICENSE */,
-				C7F4F4324FE7568A239C3355D371C266 /* README.md */,
-				8D8A3E0E70CC2051A853BCF80DDBA74C /* YDPTabBar.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				247EB6B41AA3D43BCA8D0CD69613866D /* Development Pods */,
+				6CC09579BD45B09D726AF23333360598 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BF586251B80B5F7E5946D7EC351CFDDC /* Products */,
 				419AD5ED68BCC81B89179D9FF0B6B091 /* Targets Support Files */,
@@ -294,7 +297,7 @@
 			buildConfigurationList = 0FF74282BDBE92D8AA972A4D83F4EAB7 /* Build configuration list for PBXNativeTarget "YDPTabBar" */;
 			buildPhases = (
 				C202B4A928D084082FBFC25EFD379114 /* Headers */,
-				96E135FDA5D9C2F691820A2BC5B9AFE6 /* Sources */,
+				0A45FF5D72FC40E9DE825EF6C29A5B94 /* Sources */,
 				4F39A8E2626A2D11CAD8B8072EF55CD2 /* Frameworks */,
 				CE72B73C06DC9967E567AD62C37F28C0 /* Resources */,
 			);
@@ -315,11 +318,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					DD3AD9DC64C54A5F1D8510505040D1AF = {
-						LastSwiftMigration = 1010;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -365,20 +363,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A45FF5D72FC40E9DE825EF6C29A5B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F816E4CDDD2C5DC84D1DA7A83AC2B086 /* RoundView.swift in Sources */,
+				6F1049B880A360203D8ABD09561EE3F1 /* YDPTabBar-dummy.m in Sources */,
+				B156051452A3D4161FEB261D75C24D88 /* YDPTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7436E76B1164883534D2EC581E060834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E7D1F9E88F72070813D6ED5E6334CCFA /* Pods-YDPTabBar_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96E135FDA5D9C2F691820A2BC5B9AFE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				382ED8F173BFE0360EE983DAB3945B1F /* ReplaceMe.swift in Sources */,
-				0CA8F5F351778611FC3F92F599FBE06E /* YDPTabBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,9 +474,9 @@
 			};
 			name = Release;
 		};
-		682A44C97D0A4E3D175A25DFD6DBD4E0 /* Release */ = {
+		7F6AD40B495CF4628CF21FE866AE7EEA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE15BC21327017C5FF1005FA4CFBB2F /* YDPTabBar.xcconfig */;
+			baseConfigurationReference = B5335695AB45F6FF4B73F08143FBC198 /* YDPTabBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -491,7 +490,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YDPTabBar/YDPTabBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YDPTabBar/YDPTabBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YDPTabBar/YDPTabBar.modulemap";
 				PRODUCT_MODULE_NAME = YDPTabBar;
@@ -638,9 +637,9 @@
 			};
 			name = Debug;
 		};
-		C862C2C2BDD68F070A5A29945BA1F45B /* Debug */ = {
+		BFEF52048AB1D4F9692B8548E673064C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE15BC21327017C5FF1005FA4CFBB2F /* YDPTabBar.xcconfig */;
+			baseConfigurationReference = B5335695AB45F6FF4B73F08143FBC198 /* YDPTabBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -654,7 +653,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YDPTabBar/YDPTabBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YDPTabBar/YDPTabBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YDPTabBar/YDPTabBar.modulemap";
 				PRODUCT_MODULE_NAME = YDPTabBar;
@@ -722,7 +721,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -734,8 +734,8 @@
 		0FF74282BDBE92D8AA972A4D83F4EAB7 /* Build configuration list for PBXNativeTarget "YDPTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C862C2C2BDD68F070A5A29945BA1F45B /* Debug */,
-				682A44C97D0A4E3D175A25DFD6DBD4E0 /* Release */,
+				BFEF52048AB1D4F9692B8548E673064C /* Debug */,
+				7F6AD40B495CF4628CF21FE866AE7EEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

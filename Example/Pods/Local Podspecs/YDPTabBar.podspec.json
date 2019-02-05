@@ -1,9 +1,9 @@
 {
   "name": "YDPTabBar",
   "version": "0.1.0",
-  "summary": "A short description of YDPTabBar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/José Miguel Herrero/YDPTabBar",
+  "summary": "Simple and customizable TabBar",
+  "description": "TabBar with circles in the tab selected, easy to customize on the Storyboard.",
+  "homepage": "https://www.yudonpay.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "José Miguel Herrero": "jmiguel.herrero@yudonpay.com"
   },
   "source": {
-    "git": "https://github.com/José Miguel Herrero/YDPTabBar.git",
+    "git": "https://github.com/Yudonpay/YDPTabBar.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "swift_version": "4.2",
   "source_files": "YDPTabBar/Classes/**/*"
 }
